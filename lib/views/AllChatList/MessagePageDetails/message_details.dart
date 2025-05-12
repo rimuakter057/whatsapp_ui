@@ -106,7 +106,6 @@ class _MessagePageState extends State<MessageDetails> {
              CrossAxisAlignment.end:
              CrossAxisAlignment.start,
 
-
               children: [
                 Container(
                     constraints: BoxConstraints(
@@ -124,6 +123,39 @@ class _MessagePageState extends State<MessageDetails> {
                       padding: const EdgeInsets.all(4.0),
                       child: Text(messageList[index]['message']),
                     )),
+
+              /*  Row(
+                  children: [
+                    Expanded(
+                      child: Container(
+                        height: 60,
+                        decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(20),
+                          color: AppColor.whiteColor,
+                        ),
+                        child: TextField(
+
+                          decoration: const InputDecoration(
+                              hintText: "Type a message",
+                              prefixIcon: Icon(Icons.emoji_emotions_outlined),
+                              suffixIcon: Icon(Icons.link)),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 5),
+                    CircleAvatar(
+                      backgroundColor: AppColor.whiteColor,
+                      child: IconButton(
+
+                        icon: const Icon(
+                          Icons.send,
+                          color: AppColor.greenColor,
+                        ), onPressed: () {  },
+                      ),
+                    )
+                  ],
+                ),*/
+
               ],
             );
 
@@ -132,9 +164,7 @@ class _MessagePageState extends State<MessageDetails> {
       ),
 
 
-      /* body: Column(children: [
 
-      ],),*/
     );
   }
 }
