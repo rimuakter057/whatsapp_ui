@@ -4,6 +4,7 @@ import '../AllChatList/chat_list_page.dart';
 import '../FavouritePage/favourite_page.dart';
 import '../GroupPage/group_page.dart';
 import '../UnreadChatList/unread_chat_page.dart';
+import '../user_list/user_list_screen.dart';
 
 
 
@@ -102,7 +103,9 @@ class HomePage extends StatelessWidget {
         ),
         floatingActionButton: FloatingActionButton(
           backgroundColor: AppColor.greenColor,
-          onPressed: () {},
+          onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>UserListScreen()));
+          },
           child: const Icon(
             Icons.message,
             color: Colors.white,

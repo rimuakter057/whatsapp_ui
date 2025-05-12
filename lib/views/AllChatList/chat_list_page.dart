@@ -50,19 +50,19 @@ class ChatListPage extends StatelessWidget {
   "image":"assets/images/man.jpg",
 },
 {
-"title": "Lakib",
+"title": "Khusi",
 "subtitle":"you are my friend",
   "count" : 0,
   "image":"assets/images/man.jpg",
 },
 {
-"title":"Riyad",
+"title":"Mitu",
 "subtitle":"you are my cousin",
   "count" : 0,
   "image":"assets/images/man.jpg",
 },
 {
-"title": "Ripon",
+"title": "unknown",
 "subtitle":"here i am",
   "count" : 7,
   "image":"assets/images/man.jpg",
